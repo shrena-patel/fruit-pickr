@@ -1,0 +1,35 @@
+{
+    "fruits": [
+      {
+        "fruitId": 1,
+        "name": "Kiwi",
+        "family": "Actinidiaceae",
+        "image": "/images/kiwi.png",
+        "fact": "The kiwi fruit is originally from China and was previously called Chinese gooseberry."
+      },
+      {
+        "fruitId": 2,
+        "name": "Cherry",
+        "family": "Rosaceae",
+        "image": "/images/cherry.png",
+        "fact": "The most expensive box of cherries was sold for $35,000 Australian dollars."
+      },
+      {
+        "fruitId": 3,
+        "name": "Watermelon",
+        "family": "Cucurbitaceae",
+        "image": "/images/watermelon.png",
+        "fact": "We think of watermelon as a fruit because of its sweet flavor, but watermelon is actually a vegetable. It belongs to the cucurbit family, and is related to pumpkins, cucumbers and squash."
+      },
+      {
+        "fruitId": 4,
+        "name": "Orange",
+        "family": "Rutaceae",
+        "image": "/images/orange.png",
+        "fact": "As of 2010, Brazil grows one third of all the world's oranges."
+      }
+    ],
+    "_locals": {}
+  }
+  
+  
