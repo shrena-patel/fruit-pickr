@@ -1,10 +1,10 @@
-<h1>this will show individual fruit</h1>
+{{!-- <h1>this will show individual fruit</h1> --}}
 <div class="fruit">
     <img class="img-circle" src="{{image}}" alt="{{name}}">
-    <h2>{{name}}</h2>
+    <h2 class="name">{{ name }}</h2>
     <div class="info">
-        <div>Family: {{family}}</div>
-        <div>Fact: {{fact}}</div>
+        <div class="info1"><span class="info__highlight">Family: </span> {{ family }}</div>
+        <div class="info2"><span class="info__highlight">Fact: </span> {{ fact }}</div>
     </div>
     <a href="/fruits/edit/{{id}}" class="edit">Edit</a>
 </div>

@@ -3,7 +3,6 @@
     background-color: #007b00;
     color: #ff8b76;
     text-align: center;
-
 }
 
 .container {
@@ -15,7 +14,19 @@
 .app {
     display: flex;
     flex-direction: column;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
   }
+  
+  .form-item {
+    padding-top: 20px;
+  }
+
 
 .fruit-list {
     display: flex;
@@ -36,6 +47,17 @@
     object-fit: cover;
     width: 280px;
     height: 280px;
+}
+
+.img-circle:hover,
+.img-circle:focus {
+    position: relative;
+    top: -5px;
+    left: -15px;
+    width: 290px;
+    height: 290px;
+    display:block;
+    z-index:999;
 }
 
 .title {
@@ -59,19 +81,35 @@
 .info {
     margin-bottom: 10px;
     font-size: 25px;
+    width: 60%;
+}
+
+.info2 {
+    margin-top: 20px;
+}
+
+.info__highlight {
+    text-transform: uppercase;
+}
+
+.highlight {
+    color: #ff3031;
 }
 
 .edit {
     text-transform: uppercase;
     color: #ffcc51;
-    font-size: 25px;
+    font-size: 30px;
     text-decoration: none;
+    margin-top: 20px;
 }
 
 .edit:hover,
 .edit:focus {
     color: #24e0b8;
-    
-    
+}
 
+.name {
+    color: #ff3031;
+    font-size: 40px;
 }
