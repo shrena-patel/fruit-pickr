@@ -39,7 +39,7 @@ router.post('/fruits/edit/:id', (request, response) => {
     found.family = request.body.family
     found.fact = request.body.fact
 
-    response.redirect('/fruits/edit' + id)
+    response.redirect('/fruits/' + id)
 })
 
 

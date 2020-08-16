@@ -25,8 +25,12 @@
   
   .form-item {
     padding-top: 20px;
+    font-size: 25px;
   }
 
+.input {
+    font-size: 25px;
+}
 
 .fruit-list {
     display: flex;
@@ -49,16 +53,6 @@
     height: 280px;
 }
 
-.img-circle:hover,
-.img-circle:focus {
-    position: relative;
-    top: -5px;
-    left: -15px;
-    width: 290px;
-    height: 290px;
-    display:block;
-    z-index:999;
-}
 
 .title {
     font-size: 80px;
@@ -112,4 +106,19 @@
 .name {
     color: #ff3031;
     font-size: 40px;
+}
+
+.submit {
+    background-color: #24e0b8;
+    margin-top: 40px;
+    padding: 6px 30px;
+    color: #007b00;
+    border: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.submit:hover,
+.submit:focus {
+    border: 5px solid #ff8b76;
 }

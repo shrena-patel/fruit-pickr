@@ -4,33 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
-    "dev": "nodemon --inspect index --ignore data.json",
-    "test": "jest --watchAll --noStackTrace"
-  },
-  "homepage": "https://github.com/shrena-patel/week-2-practice#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shrena-patel/week-2-practice.git"
-  },
-  "bugs": {
-    "url": "https://github.com/shrena-patel/week-2-practice/issues"
+    "dev": "nodemon index"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "express-handlebars": "^5.1.0"
-  },
-  "devDependencies": {
-    "jest": "^26.0.1",
-    "nodemon": "^2.0.4",
-    "supertest": "^4.0.2"
-  },
-  "jest": {
-    "watchPathIgnorePatterns": [
-      "data.json"
-    ]
+    "express-handlebars": "^5.1.0",
+    "nodemon": "^2.0.4"
   }
 }
